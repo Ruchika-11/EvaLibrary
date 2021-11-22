@@ -1,6 +1,6 @@
 import torch
 import torch.nn.functional as F
-from dataloader import testloader
+from EvaLibrary.src.dataloader import testloader
 import torch.nn as nn 
 
 
