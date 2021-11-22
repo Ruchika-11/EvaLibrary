@@ -1,5 +1,5 @@
 import torch.nn.functional as F
-from dataloader import trainloader
+from EvaLibrary.src.dataloader import trainloader
 from tqdm import tqdm
 import torch.nn as nn
 
