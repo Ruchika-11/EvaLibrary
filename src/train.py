@@ -23,7 +23,7 @@ def train(model, device,optimizer, epoch, train_loader):
 
         # forward + backward + optimize
         output = model(data)
-        loss = F.nll_loss(output, target)
+        loss = F.cross_entropy(output, target)
         loss.backward()
         optimizer.step()
 
