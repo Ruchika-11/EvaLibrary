@@ -65,7 +65,7 @@ test_transforms = A.Compose(
 
 class args():
     def __init__(self,device = 'cpu' ,use_cuda = False) -> None:
-        self.batch_size = 128
+        self.batch_size = 512
         self.device = device
         self.use_cuda = use_cuda
         self.kwargs = {'num_workers': 2, 'pin_memory': True} if self.use_cuda else {}
